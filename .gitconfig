@@ -1,0 +1,25 @@
+[user]
+  name = Philipp Waller
+  email = 1090452+philippwaller@users.noreply.github.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDjN0dSsRMLP7XfBfH4Il3gEZ0CKIJvy7gwaHhydg/0q
+
+[core]
+  editor = nano
+  excludesfile = ~/.gitignore
+  autocrlf = input
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+  allowedSignersFile = ~/.ssh/allowed_signers
+
+[commit]
+  gpgsign = true
+
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
